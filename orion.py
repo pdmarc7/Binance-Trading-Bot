@@ -129,8 +129,8 @@ class Alert():
         loop.run_until_complete(self.monitor())
 
     async def monitor(self):
-        self.api_key = "6anuXweZQ8f9O7KpJlq5sB2zzOBueoY0EP7BQDALN5BIxq4OkXCMorJFyBqx41DM"
-        self.api_secret = "ziOAlWdAZItThEt4r4dQJriqdonOY2gixZ6tCLcUZ3St9aKhcwhXgrBgyUHQeXw1"
+        self.api_key = "<<-- api key -->>"
+        self.api_secret = "<<-- api secret -->>"
         
         self.client = await AsyncClient.create(self.api_key, self.api_secret)
         
