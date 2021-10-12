@@ -22,8 +22,8 @@ baseline = 39
 
 class Models():
     def __init__(self, symbol, timeframes):
-        self.api_key = "6anuXweZQ8f9O7KpJlq5sB2zzOBueoY0EP7BQDALN5BIxq4OkXCMorJFyBqx41DM"
-        self.api_secret = "ziOAlWdAZItThEt4r4dQJriqdonOY2gixZ6tCLcUZ3St9aKhcwhXgrBgyUHQeXw1"
+        self.api_key = "<<- API Key -->>"
+        self.api_secret = "<<-- API Secret -->>"
 
         self.client = Client(self.api_secret, self.api_key)
         
